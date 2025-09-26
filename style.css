@@ -33,7 +33,7 @@ ol {
 }
 
 .page {
-  background-color: rgb(127 199 255 / 0.05);
+  background-color: rgba(49, 79, 101, 0.05);
   box-sizing: border-box;
 }
 
@@ -44,25 +44,6 @@ ol {
   gap: 5px;
 }
 
-.header__title-block {
-  background-color: #d394b3;
-  background-image: linear-gradient(to right, #9c2c64, #d394b3, #9c2c64);
-  box-sizing: border-box;
-  padding: 10px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title {
-  font-family: "Liberation Serif", serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 100%;
-  text-align: center;
-}
 .org-block {
   background-color: inherit;
   width: 100%;
@@ -112,7 +93,7 @@ ol {
 .card-grid-block {
   display: grid;
   width: 100%;
-  padding: 7px;
+  padding: 7px 10px;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -128,18 +109,24 @@ ol {
   gap: 5px;
   justify-content: center;
   align-items: center;
-  border-left: 1.5px solid #a0afd6;
+  border-left: 1.5px solid #04247b;
   border-bottom: 1.5px solid #a0afd6;
   border-right: 4px solid #959fba;
   border-top: 4px solid #a0acca;
   border-radius: 6px;
-  box-shadow: 3px -3px 5px #434955ce;
+  box-shadow: 3px -3px 5px #1144ab93;
   text-align: center;
 }
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 3px -3px 6px #4a87b3;
+  box-shadow: 3px -3px 6px #122dc9c9;
+  background-color: #c1d0fa;
+}
+
+.card-type-two:hover {
+  transform: scale(1.01);
+  box-shadow: 3px -3px 6px #122dc9c9;
   background-color: #c1d0fa;
 }
 
